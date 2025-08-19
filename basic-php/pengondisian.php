@@ -32,6 +32,25 @@
     <?php
     }
     ?>
+
+
+    <!-- Switch Case Statements -->
+    <?php
+    $game = 'Mobile Legends';
+
+    switch ($game) {
+        case 'Mobile Legends':
+            echo 'Game favorit anda adalah Mobile Legends';
+            break;
+
+        case 'CODM':
+            echo 'Game favorit anda adalah CODM';
+            break;
+
+        default:
+            echo 'Game favorit anda tidak diketahui';
+    }
+    ?>
 </body>
 
 </html>
